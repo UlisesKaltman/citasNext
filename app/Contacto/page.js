@@ -1,11 +1,41 @@
+import React from 'react';
+import './css.css';
+import Link from 'next/link';
 function Contacto() {
-
+  return (
+    <>
+   <nav>
+      <ul>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/Quienes-somos" class="nav-link">Quiénes somos</a></li>
+        <li><a href="/Reservas" class="nav-link">Reservas</a></li>
+      </ul>
+  </nav>
   
-    return (
-      <>
-        <h1>Contacto</h1> 
-      </>
-    );
-  }
+    <div className="contacto-container">
+      <h1 className="contacto-title">Contacto</h1>
+      <div className="mb-3">
+        <label htmlFor="exampleFormControlInput1" className="form-label">Nombre</label>
+        <input type="email" className="form-control" id="exampleFormControlInput1" />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="exampleFormControlInput1" className="form-label">Apellido</label>
+        <input type="email" className="form-control" id="exampleFormControlInput1" />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="exampleFormControlInput1" className="form-label">Mail</label>
+        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+      </div>
+      <div className="mb-3">
+        <label htmlFor="exampleFormControlTextarea1" className="form-label">Especificaciones</label>
+        <textarea className="form-control-textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" >Enviar</button>
+    </div>
+    </>
+    
+  );
+}
 
-  export default Contacto;
+export default Contacto;
+

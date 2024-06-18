@@ -1,0 +1,74 @@
+
+.contacto-container {
+    max-width: 600px;
+    margin-top: 50px;
+    margin-left: 650px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el título */
+  .contacto-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .mb-3{
+    color: #000000;
+    }
+
+
+  
+  
+  /* Estilo para los campos de entrada */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el área de texto */
+  .form-control-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Permite redimensionar verticalmente el área de texto */
+  }
+  
+  /* Estilo para los botones (si los incluyes más adelante en tu componente) */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para los mensajes de error o éxito (si los incluyes más adelante) */
+  .message {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos adicionales según necesites */
+  
+  
