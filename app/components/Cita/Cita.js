@@ -1,7 +1,8 @@
 import React from "react";
-
+import { useEffect} from "react";
 function Cita({cita,setCitas,citas})
 {
+    
     const eliminarCita= (id)=>{  
        //generar copia de citas
        
@@ -12,9 +13,11 @@ function Cita({cita,setCitas,citas})
 
        //pasan a setcitas new array
        setCitas(newlist);
-
+        
     }
+  
     const {mascota,propietario,fecha,hora,sintomas,id} = cita;
+    
     return (        
         <div className="cita">
             <p>id: <span>{id}</span></p>
