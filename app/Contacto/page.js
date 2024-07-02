@@ -4,13 +4,7 @@ import Link from 'next/link';
 function Contacto() {
   return (
     <>
-   <nav>
-      <ul>
-        <li><a href="/" class="nav-link">Home</a></li>
-        <li><a href="/Quienes-somos" class="nav-link">Quiénes somos</a></li>
-        <li><a href="/Reservas" class="nav-link">Reservas</a></li>
-      </ul>
-  </nav>
+   
   
     <div className="contacto-container">
       <h1 className="contacto-title">Contacto</h1>

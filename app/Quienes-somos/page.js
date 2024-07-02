@@ -5,13 +5,7 @@ function Quienessomos() {
   
   return (
       <>
-      <nav>
-      <ul>
-        <li><a href="/" class="nav-link">Home</a></li>
-        <li><a href="/Contacto" class="nav-link">Contacto</a></li>
-        <li><a href="/Reservas" class="nav-link">Reservas</a></li>
-      </ul>
-  </nav>
+      
         <div class="Nosotros">
         <div class="card" >
         <div class="card-body">
